@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Credenciais nunca entram: o token do ClickUp mora no Keychain (clickup-exos-api)
+*.env
