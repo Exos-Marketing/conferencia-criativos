@@ -36,11 +36,14 @@
 - **Pago × Orgânico:** diff de pixels (PIL/numpy, limiar 40). Se a diferença ficar só na faixa do CTA, está ok;
   "idênticas" indica CTA trocado; diferença espalhada indica peça regerada. Umas 500 px na faixa do selo e do logo, sem
   deslocamento, é reexportação (contagem DM, 02/11/26): não é desvio.
-- **Formatos (regra do Cleber, 05/11/26):** os tamanhos pedidos saem da configuração da copy, da peça ou do bloco.
-  A descrição da task traz uma lista genérica ("1350x1080, 1080x1920 e 1920x1080") e não serve de régua. Procure
-  "Formatos" ou "NNNNxNNNN" na copy da peça, no bloco e no cabeçalho. Se nada definir formato, não cobre: pergunte
-  no parecer. As decisões antigas "1440 no lugar do 1350" e "sem 1920x1080" (LL 07/10, ET 31/10) vinham da
-  descrição e não valem mais.
+- **Formatos (regra do Cleber, 05/11/26: "seguir os tamanhos informados na copy"):** valem os tamanhos que a copy
+  informa, na peça, no bloco ou no cabeçalho. A descrição da task traz uma lista genérica ("1350x1080, 1080x1920 e
+  1920x1080") e não serve de régua. Procure "Formatos" ou "NNNNxNNNN" na copy inteira.
+  - Peça sem tamanho próprio segue o que a copy informa. A copy não dimensionava o card de CTA da DM, então ele
+    seguiu o "1080x1920 e 1080x1350" do bloco da reta final, e o 1440 entregue virou ajuste.
+  - Tamanho que a copy não informa (1440, 1920x1080) não passa por precedente. As decisões antigas da LL (07/10) e
+    da ET (31/10) vinham da descrição.
+  - Só quando a copy inteira não informa tamanho, pergunte no parecer.
 - **Peça modelada de referência:** baixe a REF. O que é da marca de origem e sobrou na peça é erro; o que a referência
   também tem não é invenção do designer.
 

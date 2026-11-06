@@ -31,8 +31,9 @@ $PY $SK/postar.py "$C/envio.json" --apply                # só depois do "pode e
 4. **Comentário só com o que precisa de ajuste.** Nada de "o texto bate", "aprovados" ou "a peça está ok". O que
    está certo e os pontos de decisão ficam no parecer.
 5. **Precedente:** o que passou na task irmã aprovada (mesma peça, outro expert) não vira ajuste, vira decisão.
-6. **Formato é o da copy.** Os tamanhos pedidos saem da configuração da copy, da peça ou do bloco. A descrição da
-   task não serve de régua de formato. Se a copy não define formato, não há cobrança: vira pergunta no parecer.
+6. **Formato é o da copy.** Valem os tamanhos que a copy informa, na peça, no bloco ou no cabeçalho. Tamanho
+   entregue que a copy não informa vira ajuste (ex.: 1440 quando a copy diz 1350). A descrição da task não serve de
+   régua. Só quando a copy inteira não informa tamanho, pergunte no parecer.
 
 ## Fluxo
 
