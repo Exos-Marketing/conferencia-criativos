@@ -21,7 +21,8 @@
   das duas zonas. O Reels nunca foi régua antes de 20/10.
 - **Medir no pixel:** a caixa do OCR erra alguns px. Serifa itálica que passa 2–3 px da margem em 2 linhas de pixel (o
   "P" de "Profissional" a 42 px) não conta. Para a borda de placa ou caixa, procure a cor da placa por coluna e linha.
-- **Banner de vídeo:** os vídeos saem em 1080x1920 **e** 1080x1440. Sem o 1440, o editor recorta o 1920 e o banner sai cortado.
+- **Banner de vídeo:** os formatos são os da copy. Se o vídeo sai em 1080x1440, o banner também tem de vir em 1440.
+  Sem ele, o editor recorta o 1920 e o banner sai cortado.
 - **Selo e assinatura em teste A/B:** o diff A × B tem de cair só no selo. Assinatura maior ou recentralizada na B é desvio.
 
 ## Texto × copy
@@ -35,6 +36,11 @@
 - **Pago × Orgânico:** diff de pixels (PIL/numpy, limiar 40). Se a diferença ficar só na faixa do CTA, está ok;
   "idênticas" indica CTA trocado; diferença espalhada indica peça regerada. Umas 500 px na faixa do selo e do logo, sem
   deslocamento, é reexportação (contagem DM, 02/11/26): não é desvio.
+- **Formatos (regra do Cleber, 05/11/26):** os tamanhos pedidos saem da configuração da copy, da peça ou do bloco.
+  A descrição da task traz uma lista genérica ("1350x1080, 1080x1920 e 1920x1080") e não serve de régua. Procure
+  "Formatos" ou "NNNNxNNNN" na copy da peça, no bloco e no cabeçalho. Se nada definir formato, não cobre: pergunte
+  no parecer. As decisões antigas "1440 no lugar do 1350" e "sem 1920x1080" (LL 07/10, ET 31/10) vinham da
+  descrição e não valem mais.
 - **Peça modelada de referência:** baixe a REF. O que é da marca de origem e sobrou na peça é erro; o que a referência
   também tem não é invenção do designer.
 

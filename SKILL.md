@@ -31,6 +31,8 @@ $PY $SK/postar.py "$C/envio.json" --apply                # só depois do "pode e
 4. **Comentário só com o que precisa de ajuste.** Nada de "o texto bate", "aprovados" ou "a peça está ok". O que
    está certo e os pontos de decisão ficam no parecer.
 5. **Precedente:** o que passou na task irmã aprovada (mesma peça, outro expert) não vira ajuste, vira decisão.
+6. **Formato é o da copy.** Os tamanhos pedidos saem da configuração da copy, da peça ou do bloco. A descrição da
+   task não serve de régua de formato. Se a copy não define formato, não há cobrança: vira pergunta no parecer.
 
 ## Fluxo
 
@@ -43,7 +45,7 @@ $PY $SK/postar.py "$C/envio.json" --apply                # só depois do "pode e
    erra alguns px e não vê a placa atrás do texto. Peça de 1920 com algo no limite ou coberto ganha print
    Stories × Reels; peça de 1350 fora da margem ganha print de feed.
 5. **Conteúdo.** Confira foto e cena (mãos, datas, palavras), identidade, ícones, borda de 1 px, nome de arquivo,
-   formatos pedidos × entregues e peças extras.
+   formatos pedidos na copy × entregues (regra 6) e peças extras.
 6. **Parecer.** Um bloco por ADS, na ordem da copy, com texto, posicionamento (com o print), conteúdo e decisões
    com recomendação. Depois vem o rascunho do comentário, já no formato abaixo.
 7. **Autorização.** Espere o "pode enviar" e incorpore os cortes que ele pedir.
